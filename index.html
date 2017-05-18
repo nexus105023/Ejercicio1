@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejercicio</title>
+	<link rel="stylesheet" href="estilos.css">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimun-scale=1, user-scalable=no">
+</head>
+<body>
+	<div class="contenedor">
+			<header>
+			<input type="checkbox" id="btn-menu">
+			<label for="btn-menu"><img src="imagenes/icono_menu.png" alt=""></label>
+			
+				<nav class="menu">
+					<ul>
+						<li><a href="#">Apps</a></li>
+						<li><a href="#">Games</a></li>
+						<li><a href="#">Movies</a></li>
+						<li><a href="#">Books</a></li>
+						<li><a href="#">Newspapers</a></li>
+						<input type="text" class="buscar" placeholder="&#128269; Buscar ">
+					</ul>
+				</nav>
+			</header>
+			
+		<!--<div class="slider">-->
+				<div id="c-slider">
+					<div id="slider">
+						<section><img src="imagenes/img1.jpg" alt=""></section>
+						<section><img src="imagenes/img2.jpg" alt=""></section>
+						<section><img src="imagenes/img3.jpg" alt=""></section>
+						<section><img src="imagenes/img4.jpg" alt=""></section>
+					</div>
+					<div id="btn-prev">&#60;</div>
+					<div id="btn-next">&#62;</div>
+				</div>
+		<!--</div>-->
+		
+		<div class="secciones">
+			<section>
+				<article>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo sit exercitationem nisi tempore esse reprehenderit suscipit quidem minima quia, dolorem cum, necessitatibus, modi sunt sint. Laudantium commodi ex molestiae officiis.
+					lorem</p>
+				</article>
+				
+				<article>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione perspiciatis porro dignissimos corporis sapiente deleniti minus, architecto dolores totam, odio quod! Quibusdam perspiciatis maiores vero totam sapiente, enim, consequatur ad.</p>
+				</article>
+				
+				<article>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa reprehenderit aliquam commodi dolores molestias, enim expedita laborum, blanditiis libero, dolorem debitis quae hic nobis at. Dolorum quod ad repudiandae ipsum!</p>
+				</article>
+			</section>
+		</div>
+			
+		<div class="formulario">
+			 
+				<h1>Formulario</h1>
+				
+				<form onsubmit="return Validar();">
+				
+				<input class="a1" type="text" name="user" id="user" value="" placeholder="&#128187; Username" >
+				<input class="a1" type="email" name="email" id="email" value="" placeholder="&#128231; Email"  >
+				<input class="a1" type="password" name="clave" id="clave" value="" placeholder="&#128273; Password">
+				
+				<div class="area">
+			    <textarea  cols="24" rows="10" id="cajatexto" value="" placeholder="Write your message"></textarea>
+				</div>
+				
+				<input class="btn-enviar" type="submit" id="enviar" value="Enviar datos">
+				</form>
+		</div>
+		
+	</div>
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+ 	<script src="Validar.js"></script>
+	<script src="slider.js"></script>
+</body>
+</html>
